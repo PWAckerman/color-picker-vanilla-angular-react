@@ -1,0 +1,4 @@
+<div>
+    <input id="hue" type="range" max=360 min=0 ng-model="$ctrl.hue" ng-click="$ctrl.log()" ng-change="$ctrl.valChange({newVal: $ctrl.hue})"></input>
+    <div>{{$ctrl.hue}}</div>
+</div>

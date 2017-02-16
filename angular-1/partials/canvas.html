@@ -1,0 +1,10 @@
+<div>
+    <h1>Hey!</h1>
+    <brush-selector  message="vm.message"></brush-selector>
+    <hue-selector update="vm.hueChange($value)" hue="vm.hue"></hue-selector>
+    <saturation-selector update="vm.satChange($value)" saturation="vm.saturation"></saturation-selector>
+    <luminance-selector update="vm.lumChange($value)" luminance="vm.luminance"></luminance-selector>
+    <selected-color color="vm.hsl"></selected-color>
+    <drawing-board color="vm.hsl"></drawing-board>
+    <h1>{{vm.hsl}}</h1>
+</div>
